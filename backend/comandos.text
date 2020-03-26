@@ -1,0 +1,20 @@
+// documentação
+http://knexjs.org/
+
+npm install knex
+npm install sqlite3
+npx knex init
+npm start
+npx knex migrate:make create_ongs
+
+//run migrations
+npx knex migrate:latest
+
+npx knex migrate:rollback
+npx knex migrate:status
+
+//help
+npx knex
+
+//
+npm install cors
