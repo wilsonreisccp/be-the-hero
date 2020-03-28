@@ -1,2 +1,5 @@
 //rotas no react
 npm install react-router-dom
+
+//client http
+npm install axios
